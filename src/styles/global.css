@@ -1,7 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
+    --inter-font: 'Inter', sans-serif;
     --roboto-font: 'Roboto', sans-serif;
+    --c01: #070419;
+    --c02: #0C0C2E;
+    --c03: #171E40;
+    --c04: #232D57;
+    --c05: #273469;
+    --c06: #3B3E87;
+    --c07: #4E4CA3;
+    --c08: #A08DCE;
+    --c09: #C6B4F1;
+    --c10: #E6DBFF;
+    --g01: #0E0E0E;
+    --g02: #1A1A1A;
+    --g03: #2E2E2E;
+    --g04: #404040;
+    --g05: #595959;
+    --g06: #717171;
+    --g07: #9C9C9C;
+    --g08: #B2B2B2;
+    --g09: #CCCCCC;
+    --g10: #DEDEDE;
+    --g11: #EDEDED;
+    --g12: #F7F7F7;
 }
 
 * {
@@ -14,4 +38,5 @@
 main {
     min-height: 100vh;
     max-height: auto;
+    padding: 20px;
 }

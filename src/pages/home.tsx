@@ -1,7 +1,12 @@
+import Button from "../components/button"
+
 function Home() {
     return (
         <main>
-            <h1>Hello world</h1>
+            <Button 
+                text="CALCULAR" 
+                onClick={() => console.log("Botão clicado!")}
+            />
         </main>
     )
 }
