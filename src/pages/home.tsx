@@ -1,13 +1,11 @@
 import Button from "../components/button"
+import Header from "../components/header"
 
 function Home() {
     return (
-        <main>
-            <Button 
-                text="CALCULAR" 
-                onClick={() => console.log("Botão clicado!")}
-            />
-        </main>
+        <>
+            <Header />
+        </>
     )
 }
 
