@@ -1,0 +1,106 @@
+.conteudo {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.select {
+    font-family: var(--inter-font);
+    font-size: 14;
+    padding: 0px 10px;
+    width: 242px;
+    height: 40px;
+    background-color: var(--g10);
+    border: 1px solid var(--g08);
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.select:focus {
+    outline: none;
+}
+
+.hr {
+    width: 128px;
+    border: 1px solid var(--g08);
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.conversor {
+    width: 242px;
+    margin: auto;
+}
+
+.input {
+    width: 242px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.input>input {
+    width: 192px;
+    background-color: var(--g12);
+    border: 1px solid var(--g08);
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-family: var(--inter-font);
+    font-weight: normal;
+    color: var(--g01);
+}
+
+.input>input:focus {
+    outline: none;
+    border: 1px solid var(--g08);
+}
+
+.input>input::placeholder {
+    color: var(--g08);
+    font-family: var(--inter-font);
+    font-weight: normal;
+}
+
+.input .medida {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--g12);
+    border-radius: 5px;
+    border: 1px solid var(--g08);
+}
+
+.invert {
+    display: flex;
+    justify-content: end;
+    padding: 0px 5px;
+    margin-bottom: 40px;
+}
+
+.invert>img {
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}
+
+.locket {
+    margin-bottom: 100px;
+}
+
+.locket>input {
+    background-color: var(--g10);
+}
+
+.locket>.medida {
+    background-color: var(--g10);
+}
+
+.button {
+    display: flex;
+    justify-content: end;
+}
