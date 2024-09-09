@@ -1,0 +1,20 @@
+.footer {
+    background-color: var(--c05);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    font-size: 12;
+    font-family: var(--inter-font);
+    font-weight: normal;
+    color: var(--c10);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.footer a:hover {
+    color: var(--c09);
+}

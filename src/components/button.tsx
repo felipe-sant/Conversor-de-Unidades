@@ -11,4 +11,4 @@ function Button(props: { text: string, onClick: () => void }) {
 
 export default Button
 
-// Path: src/styles/button.module.css
+// Path: src/components/button.css
