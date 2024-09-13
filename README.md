@@ -1,13 +1,12 @@
 <div align="center">
 
-# 📄 Template de React 📄
+# 📄 Conversor de Unidades CLI 📄
   
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <br>
 
 </div>
 
-
-Este repositório é um template para projetos React, fornecendo uma estrutura básica e as ferramentas necessárias para começar rapidamente.
+Desenvolva uma ferramenta que converta unidades de medida, como comprimento (metros para quilômetros), peso (gramas para quilogramas), e temperatura (Celsius para Fahrenheit). 
 
 ## 🚀 Começando
 
@@ -26,7 +25,7 @@ Você precisará ter instalado:
     
 1 - Clone o repositório:
 
-    git clone https://github.com/felipe-sant/template-react.git
+    git clone https://github.com/felipe-sant/Conversor-de-Unidades-CLI.git
 
 2 - Instale as dependências:
 
@@ -73,8 +72,6 @@ Para iniciar o servidor de desenvolvimento, use:
 - React
   
 - React Router
-
-- Fetch API
 
 - styled-components (CSS Modules)
 
